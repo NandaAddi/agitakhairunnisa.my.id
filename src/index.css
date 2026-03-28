@@ -1,0 +1,27 @@
+:root {
+  --primary-yellow: #feba33;
+  --bg-cream: #fff8e1;
+  --bg-stripe: #faebd7;
+  --text-dark: #333;
+  --blue-accent: #2b3e6d;
+  --pink-accent: #d18a8a;
+  --white: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Outfit', 'Noto Sans JP', sans-serif;
+  color: var(--text-dark);
+  background-color: var(--bg-cream);
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+#root {
+  min-height: 100vh;
+}
